@@ -1,0 +1,89 @@
+#Aetherial Shaders - option menu labels
+
+profile.LOW=Low
+profile.MEDIUM=Medium
+profile.HIGH=High
+profile.ULTRA=Ultra
+profile.comment=Low: smooth on mid-range PCs. Medium: balanced. High: full atmosphere. Ultra: cinematic everything, ray-marched reflections, DoF and motion blur.
+
+screen.LIGHTING=Lighting & Shadows
+screen.ATMOSPHERE=Atmosphere & Fog
+screen.WATER=Water
+screen.SURFACE=Surfaces & Wind
+screen.CAMERA=Camera & Effects
+screen.COLOR=Color Grading
+
+option.SHADOWS=Dynamic Shadows
+option.SHADOWS.comment=Real-time shadows cast by terrain, trees, buildings and mobs.
+option.shadowMapResolution=Shadow Resolution
+option.shadowMapResolution.comment=Higher is sharper but costs performance. 2048 is a good balance.
+option.shadowDistance=Shadow Distance
+option.SHADOW_PCF=Shadow Filtering
+value.SHADOW_PCF.0=Hard
+value.SHADOW_PCF.1=Fast
+value.SHADOW_PCF.2=Soft
+value.SHADOW_PCF.3=Cinematic
+option.SHADOW_SOFTNESS=Shadow Softness
+option.sunPathRotation=Sun Path Angle
+option.sunPathRotation.comment=Tilts the sun path for prettier, longer golden-hour shadows.
+option.SSAO=Ambient Occlusion
+option.SSAO.comment=Soft contact shadows in block corners, under trees and in caves.
+option.SSAO_QUALITY=AO Quality
+value.SSAO_QUALITY.1=Fast
+value.SSAO_QUALITY.2=Balanced
+value.SSAO_QUALITY.3=High
+option.MIN_LIGHT=Minimum Light
+option.MIN_LIGHT.comment=Ambient floor so caves never turn pitch black.
+option.NIGHT_BRIGHTNESS=Night Brightness
+option.EMISSIVE_STRENGTH=Emissive Glow
+option.EMISSIVE_STRENGTH.comment=Glow strength of lava, torches, lanterns, redstone and soul fire.
+option.HANDLIGHT=Held Item Light
+
+option.GODRAYS=God Rays / Volumetric Light
+option.GODRAYS.comment=Sun shafts marched through the shadow map. Beautiful at sunrise and underwater.
+option.VL_SAMPLES=God Ray Samples
+option.VL_STRENGTH=God Ray Strength
+option.FOG_DENSITY=Fog Density
+option.VOLUMETRIC_CLOUDS=Volumetric Clouds
+option.VOLUMETRIC_CLOUDS.comment=Sun-lit layered noise clouds. Replaces vanilla clouds while enabled.
+option.CLOUD_OCTAVES=Cloud Detail
+option.CLOUD_COVERAGE=Cloud Coverage
+option.NETHER_HAZE_STRENGTH=Nether Heat Haze
+
+option.WATER_REFLECTIONS=Water Reflections
+value.WATER_REFLECTIONS.0=Off
+value.WATER_REFLECTIONS.1=Sky Only
+value.WATER_REFLECTIONS.2=Ray Traced
+option.SSR_STEPS=Reflection Quality
+option.WATER_REFRACTION=Refraction
+option.WATER_CAUSTICS=Caustics
+option.WATER_WAVES=Water Waves
+option.WATER_WAVE_HEIGHT=Wave Height
+
+option.WAVING_LEAVES=Waving Leaves
+option.WAVING_PLANTS=Waving Plants
+option.RAIN_PUDDLES=Rain Puddles
+option.RAIN_PUDDLES.comment=Ground darkens and turns reflective while it rains.
+option.PUDDLE_AMOUNT=Puddle Coverage
+
+option.BLOOM=Bloom
+option.BLOOM_INTENSITY=Bloom Intensity
+option.AUTO_EXPOSURE=Auto Exposure
+option.AUTO_EXPOSURE.comment=Eye adaptation when moving between caves and daylight.
+option.EXPOSURE=Exposure Bias
+option.MOTION_BLUR=Motion Blur
+option.MB_STRENGTH=Motion Blur Strength
+option.DOF=Depth of Field
+option.DOF.comment=Cinematic focus at the crosshair. Costly; intended for the Ultra experience.
+option.DOF_STRENGTH=DoF Strength
+option.LENS_FLARE=Lens Flare
+option.LENS_FLARE_STRENGTH=Flare Strength
+option.VIGNETTE=Vignette
+
+option.COLOR_GRADING=Color Grading
+option.COLOR_GRADING.comment=Filmic fantasy grade. Disable for a neutral ACES look.
+option.SATURATION=Saturation
+option.VIBRANCE=Vibrance
+option.CONTRAST=Contrast
+option.TEMPERATURE=Temperature
+option.TEMPERATURE.comment=Negative = cooler / blue, positive = warmer / amber.
